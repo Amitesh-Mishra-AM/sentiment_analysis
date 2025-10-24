@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Pytest
+.pytest_cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Ignore outputs and generated CSVs
+outputs/
+visualizations/
+
+# Ignore sensitive files
+*.env
+secrets.json
+
+# Byte-compiled / cache
+*.pyc
+*.pyo
+
+# Ignore local notebook checkpoint metadata (if any)
+.ipynb_meta
